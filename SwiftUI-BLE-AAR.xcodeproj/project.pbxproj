@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		1E52C7A02363EF9C00ABE75A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C79F2363EF9C00ABE75A /* AppDelegate.swift */; };
 		1E52C7A22363EF9C00ABE75A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C7A12363EF9C00ABE75A /* SceneDelegate.swift */; };
-		1E52C7A42363EF9C00ABE75A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C7A32363EF9C00ABE75A /* ContentView.swift */; };
 		1E52C7A62363EF9E00ABE75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E52C7A52363EF9E00ABE75A /* Assets.xcassets */; };
 		1E52C7A92363EF9E00ABE75A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E52C7A82363EF9E00ABE75A /* Preview Assets.xcassets */; };
 		1E52C7AC2363EF9E00ABE75A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E52C7AA2363EF9E00ABE75A /* LaunchScreen.storyboard */; };
+		1E52C7B42363EFBB00ABE75A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C7B32363EFBB00ABE75A /* ContentView.swift */; };
+		1E52C7B62363EFC800ABE75A /* myBLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C7B52363EFC800ABE75A /* myBLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E52C79C2363EF9C00ABE75A /* SwiftUI-BLE-AAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-BLE-AAR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E52C79F2363EF9C00ABE75A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E52C7A12363EF9C00ABE75A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E52C7A32363EF9C00ABE75A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1E52C7A52363EF9E00ABE75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E52C7A82363EF9E00ABE75A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1E52C7AB2363EF9E00ABE75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E52C7AD2363EF9E00ABE75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E52C7B32363EFBB00ABE75A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E52C7B52363EFC800ABE75A /* myBLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myBLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				1E52C79F2363EF9C00ABE75A /* AppDelegate.swift */,
 				1E52C7A12363EF9C00ABE75A /* SceneDelegate.swift */,
-				1E52C7A32363EF9C00ABE75A /* ContentView.swift */,
+				1E52C7B52363EFC800ABE75A /* myBLEManager.swift */,
+				1E52C7B32363EFBB00ABE75A /* ContentView.swift */,
 				1E52C7A52363EF9E00ABE75A /* Assets.xcassets */,
 				1E52C7AA2363EF9E00ABE75A /* LaunchScreen.storyboard */,
 				1E52C7AD2363EF9E00ABE75A /* Info.plist */,
@@ -147,8 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E52C7A02363EF9C00ABE75A /* AppDelegate.swift in Sources */,
+				1E52C7B62363EFC800ABE75A /* myBLEManager.swift in Sources */,
 				1E52C7A22363EF9C00ABE75A /* SceneDelegate.swift in Sources */,
-				1E52C7A42363EF9C00ABE75A /* ContentView.swift in Sources */,
+				1E52C7B42363EFBB00ABE75A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
